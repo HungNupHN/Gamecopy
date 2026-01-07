@@ -64,7 +64,6 @@ class AppGuard:
         return self.check_license_key()
 
     def check_license_key(self):
-        # ... (Code check key giữ nguyên như cũ của bạn) ...
         # Để code ngắn gọn tôi viết tóm tắt logic check key ở đây
         key_file = "license.key"
         saved_key = ""
